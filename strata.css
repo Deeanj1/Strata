@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Work Sans", sans-serif;
+    padding: 30px;
+}
+
+h1, h2,h3,h4,h5,h6{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    background-color: #f28753;
+    width: 40px;
+    border-radius: 5px;
+
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    background-color: #f28753;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+}
+
+.textblock{
+    margin-top: 40px;
+    text-align: center;
+    width: 60%;
+    margin: 0px auto;
+    
+}
+
+.bigtext{
+    font-size: 25px;
+}
+
+.smalltext p{
+    font-size: 16px;
+    width: 70%;
+    margin: 0px auto;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+.newbtn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+
+    button{
+        width: 200px;font-size: 14px; font-weight: 600; color: white
+    }
+
+    .slay{
+        color:#f28753;
+        background-color: white;
+        border: 2px solid #f28753
+    }
+}
+
+.image {
+    img{
+        width: 100%;
+        margin-top: -80px
+    }
+}
+
+.props{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.propimg{
+    img{
+        width: 0 auto;
+        height: 8rem;
+    }
+}
+.wet{
+    display:flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.crazy{
+    display: flex;
+    
+    flex-direction: column;
+    margin-top: 100px;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 30px;
+    
+    margin-left: 250px;
+
+    h1{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+}
+
+
+.section{
+    display: grid;
+    padding: 20px 50px;
+    /* gap: 40px; */
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.ats{
+    /* background-color: red; */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    h1{
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    p{
+        padding: 10px;
+    }
+    
+    button{
+        width: 150px;
+        border-radius: 0;
+        color: #f1884f;
+        background-color: white;
+        border: 2px solid #f1884f;
+        margin-left: 10px;
+    }
+}
+
+.simp{
+    border: 1px solid black;
+    width: 90%;
+    height: 250px;
+    margin: 0px 10px 0px 10px;
+    padding: 0px;
+
+}
